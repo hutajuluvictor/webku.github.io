@@ -1,0 +1,383 @@
+* {
+    scroll-behavior: smooth;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 40px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #11f;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0.5;
+    z-index: 999;
+  }
+
+  #myBtn img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #myBtn:hover {
+    background-color: #11f;
+    opacity: 1;
+  }
+
+  #mybtn {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    background-color: rgb(23, 82, 23);
+    border-radius: 20px 20px 20px 20px;
+    width: 200px;
+    height: 40px;
+    z-index: 999;
+  }
+  #mybtn img {
+    width: 20px;
+    height: 20px;
+  }
+  #mybtn a {
+    color: #fff;
+    text-align: center;
+  }
+
+header{
+    width: 100%;
+    background-color: rgb(88, 82, 83);
+    height: 40px;
+    display: flex;
+  }
+
+  header .container .medsos {
+   flex-wrap: wrap;
+   margin-top: -20px;
+  }
+
+  header img {
+    width: 25px;
+    height:18px;
+  }
+
+  header .medsos h2 {
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+  }
+
+  header .container .contact {
+      float: right;
+    color: #fff;
+    font-size: 15px;
+    margin-top: -40px;
+  }
+
+nav {
+    background-color: #000;
+    height: 65px;
+}
+
+nav li a:hover {
+    background-color: #11f;
+}
+
+nav li ul li:hover a{
+    background-color: #11f;
+    color: #fff;
+}
+
+.sidenav {
+    background-color: #455a64;
+    color: #fa1;
+}
+
+.sidenav li:hover a {
+    background-color: #fa1;
+    color: #fff;
+}
+
+.about .left, .about .right {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(30deg);
+    transition: 3s;
+}
+.about .right {
+    transform: translate(50px, 0) rotate(-30deg);
+}
+.about .left.ups, .about .right.ups {
+    opacity: 1;
+    transform: translate(0,0);
+}
+button {
+    background-color: #37474f;
+    height: 50px;
+}
+button a {
+    color: #fff;
+}
+
+.content .or {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15px;
+    margin: 50px 0 50px;  
+}
+.content .or .line {
+    width: 41%;
+    height: 2px;
+    background: #ddd;
+}
+.content .or h4 {
+    color: #000;
+    font-size: 25px;
+}
+.content .container .row img {
+    width: 300px;
+    height: 150px;
+}
+.content .container {
+   opacity: 0;
+   transform:  translate(0, -40px);
+   transition: 5s;
+}
+.content .container.up {
+    opacity: 1;
+    transform: translate(0,0);
+}
+.contents .container {
+    opacity: 0;
+    transform:  translate(0, -40px);
+    transition: 5s;
+ }
+ .contents .container.up {
+     opacity: 1;
+     transform: translate(0,0);
+ }
+ .content-list .container {
+    opacity: 0;
+    transform:  translate(0, -40px);
+    transition: 5s;
+ }
+ .content-list .container.up {
+     opacity: 1;
+     transform: translate(0,0);
+ }
+ .contentlist {
+    opacity: 0;
+    transform:  translate(0, -40px);
+    transition: 5s;
+ }
+ .contentlist.up {
+     opacity: 1;
+     transform: translate(0,0);
+ }
+
+hr {
+    width: 200px;
+    border-top: 2px solid #000;
+    margin-bottom: 20px;
+}
+.contents .or {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15px;
+    margin: 40px 0 50px;  
+}
+.contents .or .line {
+    width: 41%;
+    height: 2px;
+    background: #ddd;
+}
+.contents .or h4 {
+    color: #000;
+    font-size: 25px;
+}
+.contents .row img {
+    width: 300px;
+    height: 150px;
+}
+
+.content-list .or {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15px;
+    margin: 40px 0 50px;  
+}
+.content-list .or .line {
+    width: 41%;
+    height: 2px;
+    background: #ddd;
+}
+.content-list .or h4 {
+    color: #000;
+    font-size: 25px;
+}
+.content-list .row img {
+    width: 300px;
+    height: 150px;
+}
+
+.contentlist .or {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15px;
+    margin: 40px 0 50px;  
+}
+.contentlist .or .line {
+    width: 41%;
+    height: 2px;
+    background: #ddd;
+}
+.contentlist .or h4 {
+    color: #000;
+    font-size: 25px;
+}
+.contentlist .row img {
+    width: 300px;
+    height: 150px;
+}
+section {
+    padding:20px 0;
+}
+.services .card-panel img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact img {
+    width: 40px;
+    height:20px;
+  }
+picture img {
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+}
+
+/* car css*/
+main .container img {
+    width: 300px;
+    height: 200px;
+}
+
+/*status*/
+aside .righti {
+    opacity: 0;
+    transform: translate(-60px, 0) rotate(30deg);
+    transition: 2s;
+}
+aside .righti.jin {
+    opacity: 1;
+    transform: translate(0,0);
+}
+/*info*/
+.info .leftin {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(30deg);
+    transition: 2s;
+}
+.info .leftin.join {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+footer {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+footer p {
+    opacity: 0.5;
+}
+footer a {
+    color: #fff;
+    margin: 20px;
+}
+footer h1 {
+    color: #11f;
+    font-size: 30px;
+}
+
+footer img {
+    width: 25px;
+    height:18px;
+    margin: 5px;
+}
+footer .images {
+    margin-top: 50px;
+    width: 300px;
+    height: 30px;  
+}
+footer .or .line {
+    width: 80%;
+    height: 2px;
+    background-color: #ddd;
+    margin: auto;
+    opacity: 0.5;
+}
+
+@media screen and (max-width:768px) {
+  header {
+      height: 80px;
+     text-align: center;
+  }
+  header .container .contact {
+      float: none;
+      margin: 0 auto;
+  }
+   
+}
+
+@media screen and (max-width:568px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    #myBtn {
+        right: 5px;
+        bottom: 250px;
+        z-index: 9999;
+     }
+     #mybtn {
+         right: 5px;
+         bottom: 180px;
+         width: 90px;
+         height: 50px;
+     }
+     #mybtn a {
+         font-size: 10px;
+     }
+    
+    header {
+        height: 120px;
+       text-align: center;
+       
+    }
+    header .container .medsos {
+        font-size: 10px;
+        margin: 5px auto; 
+    }
+    header .container .medsos h2 {
+        font-size: 12px;
+        
+    }
+    header .container .contact {
+        float: none;
+        margin: -15px auto;
+    }
+    .content .or .line {
+        width: 80%;
+    }
+    .content .or h4 {
+        width: 50%;   
+    }
+    
+}
